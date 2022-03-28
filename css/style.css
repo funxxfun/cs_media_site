@@ -185,6 +185,10 @@ li {
 #pickup .slick-area li {
   padding: 0 30px;
 }
+#pickup .slick-area img {
+  height: 100%;
+  object-fit: cover;
+}
 /* ここからfeature */
 .fadein {
   opacity : 0;
