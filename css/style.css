@@ -212,7 +212,7 @@ object-fit: cover;
 }
 #feature .grid img {
   vertical-align: top;
-  max-height: 300px;
+  max-height: 250px;
   width: 100%;
   object-fit: cover;
 }
