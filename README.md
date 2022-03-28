@@ -1,4 +1,5 @@
 # イタグレMedia Site
+https://user-images.githubusercontent.com/86139603/160361837-7d6c4c62-29d0-4b51-a1c5-4612f88ae7e8.gif
 
 ---
 ## 対象となる想定ペルソナ
