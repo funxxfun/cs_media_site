@@ -1,14 +1,175 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>Media Site</title>
+    <meta name="description" content="jQueryを多用したWebサイトをアレンジしたイタリアングレーハウンドバージョンです">
+    <meta name="keywords" content="イタリアングレーハウンド jQuery" />
+    <link rel="icon" href="./img/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+
+  <body>
+    <header id="header">
+        <h1 class="header-logo">
+          <a href="index.html"><img src="./img/logo.s.png" alt="イタグレのロゴです"></a>
+        </h1>
+      <nav id="navi">
+        <ul class="nav-menu">
+          <li><a href="#pickup">PICK UP</a></li>
+          <li><a href="#feature">FEATURE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <ul class="nav-sns">
+          <li><a href="">Twitter</a></li>
+          <li><a href="">facebook</a></li>
+          <li><a href="">instagram</a></li>
+        </ul>
+      </nav>
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="mask"></div>
+    </header>
+    <main id="main">
+      <div id="video">
+        <video src="video/12034062943065.mp4" id="bg-video" loop autoplay muted></video>
+      </div>
+      <section id="pickup">
+        <h2 class="sec-title">PICK UP</h2>
+        <ul class="slick-area">
+          <li><img src="img/IMG_0472.jpeg" alt="犬の画像です"></li>
+          <li><img src="img/IMG_0716.JPG" alt="犬の画像です"></li>
+          <li><img src="img/IMG_0741.jpeg" alt="犬の画像です"></li>
+          <li><img src="img/IMG_0891.jpeg" alt="犬の画像です"></li>
+          <li><img src="img/IMG_1312.JPG" alt="犬の画像です"></li>
+          <li><img src="img/IMG_1764.jpeg" alt="犬の画像です"></li>
+          <li><img src="img/IMG_3708.JPG" alt="犬の画像です"></li>
+          <li><img src="img/IMG_3717.JPG" alt="犬の画像です"></li>
+          <li><img src="img/IMG_5029.JPG" alt="犬の画像です"></li>
+        </ul>
+      </section>
+      <section id="feature">
+        <h2 class="sec-title">FEATURE</h2>
+        <div class="grid">
+          <div class="item">
+            <img class="fadein" src="img/IMG_3717.JPG" alt="">
+            <div class="item-content">
+              <p class="item-cat">初めまして</p>
+              <p class="item-text">えっ？今から家行っていいの？？</p>
+              <p class="item-date">2020.5</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_3708.JPG" alt="">
+            <div class="item-content">
+              <p class="item-cat">お迎えの日</p>
+              <p class="item-text">一緒住みたいっていうなら住んでもいいけど・・・</p>
+              <p class="item-date">2020.5</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_5398.jpg" alt="">
+            <div class="item-content">
+              <p class="item-cat">初めてのドッグラン</p>
+              <p class="item-text">ここ、走っていいって聞いたけど、、ホントですか？</p>
+              <p class="item-date">2020.7</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_9832.jpeg" alt="">
+            <div class="item-content">
+              <p class="item-cat">初めての川遊び</p>
+              <p class="item-text">もう〜〜！！びしょびしょになったやーん(＞＜)</p>
+              <p class="item-date">2020.8</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_7394.jpeg" alt="">
+            <div class="item-content">
+              <p class="item-cat">歯科検診</p>
+              <p class="item-text">オレ、歯磨き得意だから虫歯ないと思うよ</p>
+              <p class="item-date">2021.6</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_5029.JPG" alt="">
+            <div class="item-content">
+              <p class="item-cat">助けてください</p>
+              <p class="item-text">だから、水嫌いって言ってんじゃんっ！！！</p>
+              <p class="item-date">2021.7</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_5667.jpeg" alt="">
+            <div class="item-content">
+              <p class="item-cat">夏の終わり</p>
+              <p class="item-text">やっぱなんか、しみるな〜</p>
+              <p class="item-date">2021.9</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_8793.jpeg" alt="">
+            <div class="item-content">
+              <p class="item-cat">はるか先祖のオオカミを思う</p>
+              <p class="item-text">先代のオオカミパイセン達も、こうして街を見下ろしてたのかな〜</p>
+              <p class="item-date">2021.10</p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="fadein" src="img/IMG_8090.jpeg" alt="">
+            <div class="item-content">
+              <p class="item-cat">クライマー本領発揮</p>
+              <p class="item-text">頂上で食べるささみジャーキーがたまんないんだよねーー</p>
+              <p class="item-date">2021.11</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="sec-title">CONTACT</h2>
+        <div class="content">
+          <div class="contact-info">
+            <p>イタリアングレーハウンド</p>
+            <p>
+              他の犬種では考えられないようなこともしでかすので、特にパピー期には性格によっては扱いづらいこともあります。
+            </p>
+            <p>
+              いまだにしつけに頭を悩ますこともありますが、びっくりするくらい可愛いです。癖になります！
+              イタグレを飼われている多くの方がイタグレ３頭も４頭も多頭飼いされているということは、きっと皆さんそうなんだと思います。
+            </p>
+            <p>
+              困っていることを相談しあって、幸せイタグレライフを過ごしませんか？
+            </p>
+          </div>
+          <div class="contact-form">
+            <form action="#">
+              <dl>
+                <dt><label for="name">Name:</label></dt>
+                <dd><input type="text" id="name" name="your-name"></dd>
+                <dt><label for="email">Mail:</label></dt>
+                <dd><input type="email" id="email" name="your-email"></dd>
+                <dt><label for="message">Message:</label></dt>
+                <dd><textarea id="message" name="your-message"></textarea></dd>
+              </dl>
+              <div class="button"><input type="submit" value="SEND"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <p>&copy; ITALIAN GREYHOUND 2022</p>
+    </footer>
+  </body>
 </html>
