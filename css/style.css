@@ -186,8 +186,8 @@ li {
   padding: 0 30px;
 }
 #pickup .slick-area img {
-height: 100%;
-max-height: 460px;
+aspect-ratio: 16 / 9;
+width: 100%;
 object-fit: cover;
 }
 /* ここからfeature */
@@ -209,11 +209,10 @@ object-fit: cover;
 #feature .grid .item {
   transition: all  0.3s ease;
   box-shadow: 0 0 8px 4px #ccc;
+  vertical-align:bottom;
 }
 #feature .grid img {
-  vertical-align: top;
-  max-height: 250px;
-  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 #feature .grid .item-content {
