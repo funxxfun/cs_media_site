@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Meyer's CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -186,10 +188,27 @@ li {
   padding: 0 30px;
 }
 #pickup .slick-area img {
-aspect-ratio: 16 / 9;
-width: 100%;
-object-fit: cover;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
 }
+/* slickの設定 */
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+  opacity: 1;
+}
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0;
+}
+
+
+
 /* ここからfeature */
 .fadein {
   opacity : 0;
@@ -214,6 +233,7 @@ object-fit: cover;
 #feature .grid img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  vertical-align: top;
 }
 #feature .grid .item-content {
   padding: 30px;

@@ -27,7 +27,7 @@ $(function(){
   });
   // ここからスライダー
   $('.slick-area').slick({
-    arrows: false,
+    arrows: true,
     centerMode: true,
     centerPadding: '100px',
     slidesToShow: 3,
