@@ -32,7 +32,7 @@ a {
   color: #121212;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
 li {
   list-style: none;
@@ -188,31 +188,12 @@ li {
   padding: 0 30px;
 }
 #pickup .slick-area img {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 1 / 1;
   width: 100%;
   object-fit: cover;
+  object-position: center top;
 }
-
-
 /* slickの設定 */
-.slick-prev, .slick-next {
-  font-size: 0;
-  line-height: 0;
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  cursor: pointer;
-  color: transparent;
-  border: none;
-  outline: none;
-  background: transparent;
-}
 .slick-prev {
   left: -100px;
 }
@@ -220,37 +201,10 @@ li {
   right: 20px;
 }
 .slick-prev:before, .slick-next:before {
-  font-family: 'slick';
   font-size: 40px;
   line-height: 1;
   opacity: .75;
   color: #000;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.slick-prev:before {
-  content: '←';
-}
-.slick-next:before {
-  content: '→';
-}
-.slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus {
-  color: transparent;
-  outline: none;
-  background: transparent;
-}
-.slick-prev:hover:before,
-.slick-prev:focus:before,
-.slick-next:hover:before,
-.slick-next:focus:before {
-  opacity: 1;
-}
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-  opacity: .25;
 }
 
 /* ここからfeature */
@@ -272,12 +226,11 @@ li {
 #feature .grid .item {
   transition: all  0.3s ease;
   box-shadow: 0 0 8px 4px #ccc;
-  vertical-align:bottom;
 }
 #feature .grid img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  vertical-align: top;
+  object-position: center top;
 }
 #feature .grid .item-content {
   padding: 30px;
