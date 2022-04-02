@@ -8,7 +8,7 @@ https://user-images.githubusercontent.com/86139603/160361837-7d6c4c62-29d0-4b51-
 ## 背景となる現状認識
 - Webページの構造は大まかに把握できてきたが、デザインや動的実装に苦手意識あり
 ---
-## 事実 
+## 事実
 - Webページの大まかな構造は組み立てることができる
 - HTMLの書き方やルールはおおかた理解
 - 簡単なCSSは実装できる
@@ -28,7 +28,7 @@ https://user-images.githubusercontent.com/86139603/160361837-7d6c4c62-29d0-4b51-
 - ディレクトリ構成
 <img width="398" alt="ディレクトリのイメージ画像" src="https://user-images.githubusercontent.com/86139603/160216281-98fd4c61-19c5-4582-a5a5-1779990cd6be.png">
 
---- 
+---
 ## サイト構造
 ### header
 - h1：ロゴ
@@ -50,6 +50,41 @@ https://user-images.githubusercontent.com/86139603/160361837-7d6c4c62-29d0-4b51-
 - content > contact-form
 ### footer
 - p：copyright
----
+
+## 新規に導入したCSS・jQueryプラグインなど
+- スムーススクロール
+- ハンバーガーメニューのopen、close
+- カルーセルスライダー(slick)
+- グリッドレイアウト
+- fadein
+
+
+## ブラウザーの互換性
+ブラウザー | object-fit | aspect-ratio
+-
+Chrome | ◯ | ◯
+-
+Edge| ◯ | ◯
+-
+Firefox| ◯ | ◯
+-
+Internet Explorer | ×非対応 | ×非対応
+-
+Opera| ◯ | ◯
+-
+Safari| ◯ | ◯
+-
+WebView Android| ◯ | ◯
+-
+Chrome Android| ◯ | ◯
+-
+Firefox for Android| ◯ | ◯
+-
+Opera Android| ◯ | ◯
+-
+Safari on iOS| ◯ | ◯
+-
+Samsung Internet| ◯ | ◯
+-
 ## まとめ
 これまで学習してきたことの復習と苦手部分の克服、WEb制作のスキルアップを目指す！！
