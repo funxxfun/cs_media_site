@@ -371,6 +371,13 @@ li {
     width: 100%;
     object-fit: cover;
   }
+  /* slider */
+  .slick-prev {
+    left: 40px;
+  }
+  .slick-next{
+    right: 40px;
+  }
   /*-------------------------------------------
   Feature
   -------------------------------------------*/
