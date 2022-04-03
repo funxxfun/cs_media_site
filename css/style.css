@@ -373,7 +373,7 @@ li {
   }
   /* slider */
   .slick-prev {
-    left: 40px;
+    left: 15px;
   }
   .slick-next{
     right: 40px;
